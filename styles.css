@@ -84,10 +84,18 @@ p{
     }
 
     .mainTagLine {
-        font-size: 38;
+        font-size: 38px;
         font-weight: 400;
         width: 80%;
         color: var(--dark-blue);
+    }
+
+    .superSoln-TagLine {
+        font-weight: 700;
+    }
+
+    .business-TagLine {
+        font-weight: 700;
     }
 
     .tagLineParag {
@@ -296,6 +304,14 @@ p{
         z-index: 2;
     }
     
+    .superSoln-TagLine {
+        font-weight: 700;
+    }
+
+    .business-TagLine {
+        font-weight: 700;
+    }
+
     .tagLineParag {
         color: var(--grey);
         line-height: 1.75rem;
@@ -502,6 +518,14 @@ p{
         width: 30rem;
         color: var(--dark-blue);
         z-index: 2;
+    }
+
+    .superSoln-TagLine {
+        font-weight: 700;
+    }
+
+    .business-TagLine {
+        font-weight: 700;
     }
     
     .tagLineParag {
