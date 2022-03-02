@@ -86,9 +86,14 @@ p{
     .mainTagLine {
         font-size: 38px;
         font-weight: 400;
-        width: 80%;
+        width: 100%;
         color: var(--dark-blue);
     }
+        @media (max-width: 344px) {
+            .mainTagLine {
+                font-size: 30px;
+            }
+        }
 
     .superSoln-TagLine {
         font-weight: 700;
